@@ -48,18 +48,18 @@ Kontekst: Zarządzanie kontem
 | Obiekt wartości | Typ konta | Rodzaj konta, Oprocentowanie, Limit debetu |
 
 Kontekst: Przelewy
-| Typ | Nazwa | Atrybuty | Opis |
-| --- | --- | --- | --- |
+| Typ | Nazwa | Atrybuty |
+| --- | --- | --- |
 | Encja | Rachunek | Numer konta, Saldo, Waluta, Operacje |
-| Encja | Oddział | Numer, Adres, Telefon, E-mail | Oddział banku |
+| Encja | Oddział | Numer, Adres, Telefon, E-mail |
 | Obiekt wartości | Waluta | Kod, Nazwa |
 | Obiekt wartości | Przelew | Tytuł, Kwota, Data, Numer konta nadawcy, Numer konta odbiorcy |
 | Obiekt wartości | Wpłata | Kwota, Data |
 | Obiekt wartości | Wypłata | Kwota, Data |
 
 Kontekst: Uwierzytelnianie
-| Typ | Nazwa | Atrybuty | Opis |
-| --- | --- | --- | --- |
+| Typ | Nazwa | Atrybuty |
+| --- | --- | --- |
 | Encja | Użytkownik | Konto, Login, Hasło, Rola |
 | Obiekt wartości | Rola | Nazwa (Klient/Pracownik/Administrator), Uprawnienia  |
 | Obiekt wartości | Historia logowania | Data, Adres IP, Przeglądarka, Status, Sesja |
