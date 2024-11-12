@@ -40,7 +40,7 @@ W modelowanej aplikacji bankowej wyróżniamy następujące agregaty, encje i ob
 
 Kontekst: Zarządzanie kontem
 | Typ | Nazwa | Atrybuty |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | Encja | Konto | Klient, Numer konta, Typ konta |
 | Encja | Klient | Imię, Nazwisko, PESEL, Adres, Dane kontaktowe |
 | Obiekt wartości | Adres | Ulica, Numer domu, Numer mieszkania, Kod pocztowy, Miasto |
