@@ -36,8 +36,8 @@ def create_book():
 
     if len(new_book.name) < 1 or len(new_book.name) > 100:
         return jsonify({'error': 'Book name must be between 1 and 100 characters'}), 400
-    if not re.match("^[a-zA-Z0-9 ]+$", new_book.name):
-        return jsonify({'error': 'Book name must contain only alphabets, numbers and spaces'}), 400
+    if not re.match("^[a-zA-Z0-9 -]+$", new_book.name):
+        return jsonify({'error': 'Book name must contain only alphabets, numbers, spaces and dashes'}), 400
     if len(new_book.author) < 1 or len(new_book.author) > 100:
         return jsonify({'error': 'Author name must be between 1 and 100 characters'}), 400
     if not re.match("^[a-zA-Z ]+$", new_book.author):
